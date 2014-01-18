@@ -1,13 +1,19 @@
-Before this semester i had done lots of theory courses and some of them had course project also.
-But implementing the theory in practical is really a complex task.
+Before this semester i had done lots of theory courses and some of them 
+had course project also.But implementing the theory in practical is really a complex task.
 
-Theory doesn't talk about the real time and real world difficulties that we have to face after we install some system or build some system.
+Theory doesn't talk about the real time and real world difficulties that we have to face 
+after we install some system or build some system.
 
-The main and most noticeable thing that i learn from this course is to implement a real world system and 
-this is system is not like a toy system .I have considered most of real world difficulties that we face 
-and while implementing the system i have taken care about those difficulties and used some approach to rectify and
+The main and most noticeable thing that i learned from this course is to implement a real 
+world system and this system ,what i implemented is not like a toy system .I have considered most of 
+real world difficulties and engineering problems that we face and while implementing the system i have taken
+care about those difficulties and used some approach to rectify and
 handle those cases.
 
 Beside this i learned "How to handle and debug large projects ?"
 
-And last one is about Go language.Is is very interesting language and it gives us lots of packages and with those packages we can implement nice projects without getting much trouble.In the starting of the semester i struggled a little bit for using Go language in the assignments but now at the end of the semester i feel much more comfortable with this language.
+And last one is about Go language.It is very interesting language and 
+it gives us lots of packages and with those packages we can implement 
+nice projects without getting much trouble.At the starting of the 
+semester i struggled a little bit for using Go language in the assignments 
+but now at the end of the semester i feel much more comfortable with this language.
