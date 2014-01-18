@@ -4,9 +4,13 @@ This is a program written in go language .It implements http server and which is
 
 How to run:
 1.Set GOPATH to current directory.
+
 2.go get github.com/ankitbhrdwj27/kvstore
+
 3.go build github.com/ankitbhrdwj27/kvstore
+
 4.cd src/github.com/ankitbhrdwj27/kvstore
+
 5.go run kvstore.go
 
 after this open a browser with the following url "localhost:8080/index"
