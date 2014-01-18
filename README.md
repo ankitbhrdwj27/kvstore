@@ -1,6 +1,6 @@
 kvstore
 =======
-This is a program written in go language .It implements http server and which is used for insert,delete and update the key-value pair.
+This is a program written in go language .It implements http server, which is used for insert,delete and update the key-value pair.
 
 How to run:
 
