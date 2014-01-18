@@ -3,6 +3,7 @@ kvstore
 This is a program written in go language .It implements http server and which is used for insert,delete and update the key-value pair.
 
 How to run:
+
 1.Set GOPATH to current directory.
 
 2.go get github.com/ankitbhrdwj27/kvstore
@@ -13,4 +14,4 @@ How to run:
 
 5.go run kvstore.go
 
-after this open a browser with the following url "localhost:8080/index"
+After this open a browser with the following url "localhost:8080/index"
