@@ -1,0 +1,33 @@
+By using the below command i tried to check the scalability of the system .Results are given below
+httperf --hog --server=127.0.0.1 --port=8080 --wsess=100000,5,2 --rate 1000 --timeout 5
+
+
+RESULTS:
+-------
+This creates 100,000 sessions, at a rate of 1,000 per second. Each session makes 5 calls, which are spread out by 2 
+Maximum connect burst length: 7
+Total: connections 12387 requests 61819 replies 61790 test-duration 108.994 s
+Connection rate: 113.6 conn/s (8.8 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 8003.4 avg 8237.7 max 12836.6 median 8003.5 stddev 414.0
+Connection time [ms]: connect 190.8
+Connection length [replies/conn]: 5.000
+Request rate: 567.2 req/s (1.8 ms/req)
+Request size [B]: 62.0
+
+Reply rate [replies/s]: min 233.4 avg 585.9 max 672.6 stddev 93.8 (21 samples)
+Reply time [ms]: response 9.2 transfer 0.0
+Reply size [B]: header 124.0 content 19.0 footer 0.0 (total 143.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=61790 5xx=0
+
+CPU time [s]: user 12.61 system 96.29 (user 11.6% system 88.3% total 99.9%)
+Net I/O: 113.5 KB/s (0.9*10^6 bps)
+
+Errors: total 87642 client-timo 29 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 87613 addrunavail 0 ftab-full 0 other 0
+
+Session rate [sess/s]: min 0.00 avg 113.38 max 203.61 stddev 86.76 (12358/100000)
+Session: avg 1.00 connections/session
+Session lifetime [s]: 8.2
+Session failtime [s]: 0.0
+Session length histogram: 87642 0 0 0 0 12358
+
